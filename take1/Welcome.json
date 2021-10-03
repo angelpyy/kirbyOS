@@ -1,0 +1,207 @@
+{
+  "id": "759e5366-d307-4913-a497-10d3429f29b6",
+  "name": "Welcome",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "person",
+          "dataType": "@sys.person",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$person",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hello! I'm kirbyOS.",
+            "kirbyOS here!",
+            "kirbyOS ready!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how it do",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1b0b4d72-cec8-4c4a-a0a1-58fa90509e47",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7fd73718-2f7a-4511-8719-29d0bbb613e4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hows it going",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b39fc4ca-6f0f-458e-8ed9-117e03ab997f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "whats up",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4e889f71-37a9-49eb-b451-1686b72bf8ae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "yo",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "efebf8a3-c36a-4300-857e-e0322bbf672c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello ",
+          "userDefined": false
+        },
+        {
+          "text": "kirby",
+          "userDefined": false,
+          "alias": "person",
+          "meta": "@sys.person"
+        }
+      ],
+      "count": 0,
+      "id": "dc4eefc0-ad76-4873-af8d-b09da8be904c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey ",
+          "userDefined": false
+        },
+        {
+          "text": "kirby",
+          "userDefined": false,
+          "alias": "person",
+          "meta": "@sys.person"
+        }
+      ],
+      "count": 0,
+      "id": "4db8a4bb-ef8b-4d96-94a3-13177873b83d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi ",
+          "userDefined": false
+        },
+        {
+          "text": "kirby",
+          "userDefined": false,
+          "alias": "person",
+          "meta": "@sys.person"
+        }
+      ],
+      "count": 0,
+      "id": "6fdd0d65-3633-4018-af3f-aad6c3e3db27",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "071345c8-65b3-4bf0-843d-40a7bbe8cb7d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "accf3df7-d3ab-4d67-be14-f5bd33aa7dba",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1d02803d-284e-45a3-86ac-43ec6eff2cde",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

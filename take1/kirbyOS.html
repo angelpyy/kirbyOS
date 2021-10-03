@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title> kirbyOS Interface </title>
+</head>
+<body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyC5eToMSAEr03jtRX7F-WyeJfEtLCD7qPo",
+          authDomain: "spring-forest-327822.firebaseapp.com",
+          projectId: "spring-forest-327822",
+          storageBucket: "spring-forest-327822.appspot.com",
+          messagingSenderId: "639159082655",
+          appId: "1:639159082655:web:22c9d9f0fb3cf871b4ccaa",
+          measurementId: "G-8VPW5T1EPM"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+    <script src="index.js"></script>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        chat-icon="https:&#x2F;&#x2F;i.imgur.com&#x2F;reohI9k.png"
+        chat-title="kirbyOS"
+        agent-id="1972269c-72c4-45e4-b705-51e8f2984635"
+        language-code="en"
+    ></df-messenger>
+</body>

@@ -1,0 +1,117 @@
+{
+  "id": "32eed57b-5c28-403d-bb45-ee0cc149bd97",
+  "name": "joke",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Q: Why did the scarecrow win the Nobel Prize? A: He was out standing in his field.",
+            "no joke just kirby! (っ^‿^)っ",
+            "Two snare drums and a cymbal fall down a canyon.. Duhdun tshhhh c(','c)",
+            "Where is the worst place to play hide and seek in a hospital ? In the I.C.U.",
+            "Q: What did the grape say when it got stepped on?\nA: Nothing, it just let out a little wine."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "quick make laugh",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a921c466-399e-4ea6-ad2e-aa1b683d213b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can i hear a joke",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6d1c8f95-2fcd-4ae8-b3ee-6378d9f312a7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "joke pls",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e4358c2f-d493-4fb1-8e04-a195642dcc54",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "make a funny",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b4878057-6340-4773-9862-897c47e8a2d8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "make me laugh",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c3c5250c-da16-43e6-8a27-b8deabfc2cf7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tell me a joke",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fa8c691e-64af-4e94-adf3-7bff89ed00df",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}
